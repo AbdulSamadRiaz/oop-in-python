@@ -1,0 +1,130 @@
+Level 1 — Basic OOP
+Beginner
+These problems test classes, objects, constructors, attributes and methods.
+
+Problem 1: Employee Management System
+
+Create an Employee class.
+
+Requirements:
+- Name, employee ID, salary and department.
+- Create a constructor.
+- Create display_info() method.
+- Create calculate_annual_salary() method.
+- Create three employee objects.
+Problem 2: Library Management System
+
+Create a Book class.
+
+Requirements:
+- Book title, author and availability.
+- Create a borrow_book() method.
+- Create a return_book() method.
+- Create a display_book() method.
+- Do not allow someone to borrow an already borrowed book.
+Problem 3: Shopping Cart System
+
+Create a ShoppingCart class.
+
+Requirements:
+- Product name and price.
+- Create an add_item() method.
+- Create a remove_item() method.
+- Create a calculate_total() method.
+- Apply a 10% discount if the total exceeds 10,000.
+  
+  Level 2 — Four Pillars of OOP
+  Intermediate
+  These problems cover inheritance, polymorphism, encapsulation and abstraction.
+Problem 4: University Management System
+
+Concept: Inheritance
+
+Create three classes:
+- Person (parent class)
+- Student (child class)
+- Teacher (child class)
+Requirements:
+- Person should contain name and age.
+- Student should contain roll number and semester.
+- Teacher should contain employee ID and subject.
+- Both child classes should inherit from Person.
+- Display information for both students and teachers.
+Problem 5: Payment System
+
+Concept: Polymorphism
+
+Create three classes:
+- CreditCard
+- JazzCash
+- BankTransfer
+Requirements:
+- Each class should have a method called payment().
+- Each method should process payment differently.
+- Create objects of all three classes.
+- Call the same method on each object.
+Problem 6: Secure Bank Account
+
+Concept: Encapsulation
+
+Create a BankAccount class.
+
+Requirements:
+- Store balance as a private attribute using __balance.
+- Create a deposit() method.
+- Create a withdraw() method.
+- Create a get_balance() method.
+- Prevent direct modification of the balance through the normal public interface.
+- Prevent negative deposits and withdrawals.
+Problem 7: Vehicle System
+
+Concept: Abstraction
+
+Create an abstract class called Vehicle.
+
+Requirements:
+- Create an abstract method called start().
+- Create a Car class.
+- Create a Bike class.
+- Both classes should inherit from Vehicle.
+- Implement start() differently in both classes.
+- Use Python's abc module.
+  
+  Level 3 — Advanced OOP Practice
+  Intermediate → Advanced
+Problem 8: Online Food Ordering System
+
+Concepts: Inheritance, encapsulation and polymorphism.
+
+Requirements:
+- Create a User class.
+- Create Customer and Restaurant child classes.
+- Create an Order class.
+- Add products to an order.
+- Calculate the total bill.
+- Implement order status (Pending, Confirmed, Delivered).
+Problem 9: ATM Machine
+
+Concepts: Classes, objects, constructors, methods and encapsulation.
+
+Requirements:
+- Create an ATM class.
+- Store account PIN and balance.
+- Create a PIN verification method.
+- Create deposit and withdrawal methods.
+- Create a balance inquiry method.
+- Allow three incorrect PIN attempts before blocking access.
+Problem 10: E-Commerce Management System
+
+Concepts: All four pillars of OOP.
+
+Requirements:
+- Create a Product class.
+- Create a Customer class.
+- Create an Admin class.
+- Create a ShoppingCart class.
+- Admin can add and remove products.
+- Customers can add products to their cart.
+- Calculate the total bill.
+- Apply discounts.
+- Display the final order details.
